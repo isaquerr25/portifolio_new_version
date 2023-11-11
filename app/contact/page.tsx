@@ -1,5 +1,3 @@
-import FormContact from "@/components/FormContact";
-
 export default function Home() {
    return (
       <section className="max-w-xl m-auto text-center">

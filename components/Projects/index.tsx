@@ -5,7 +5,6 @@ export default function Projects({
    idHtml,
    projects,
    seeMoreProjects = false,
-   scopeBusiness = false,
 }: {
    idHtml?: string;
    title?: string;
@@ -14,14 +13,13 @@ export default function Projects({
       description: string;
       technologies: string[];
       image: string;
-      site: string;
-      github: string;
+      site?: string;
+      github?: string;
       sizeImage?: string;
       linkedin?: string;
       job?: string;
    }[];
    seeMoreProjects: boolean;
-   scopeBusiness: boolean;
 }) {
    return (
       <section id={idHtml} className="w-full py-10 overflow-x-hidden">
@@ -35,32 +33,20 @@ export default function Projects({
             </h2>
          </div>
          <div className="w-full flex flex-col [&>*:nth-child(even)]:flex-row-reverse max-[1200px]:[&>*:nth-child(even)]:flex-col  gap-24">
-            {projects.map((item) =>
-               !scopeBusiness ? (
-                  <Project
-                     key={item.title}
-                     title={item.title}
-                     image={item.image}
-                     description={item.description}
-                     technologies={item.technologies}
-                     github={item.github}
-                     site={item.site}
-                     sizeImage={item.sizeImage}
-                     linkedin={item.linkedin}
-                     job={item.job}
-                  />
-               ) : (
-                  <Project
-                     key={item.title}
-                     title={item.title}
-                     image={item.image}
-                     description={item.description}
-                     technologies={item.technologies}
-                     github={item.github}
-                     site={item.site}
-                  />
-               )
-            )}
+            {projects.map((item) => (
+               <Project
+                  key={item.title}
+                  title={item.title}
+                  image={item.image}
+                  description={item.description}
+                  technologies={item.technologies}
+                  github={item.github}
+                  site={item.site}
+                  sizeImage={item.sizeImage}
+                  linkedin={item.linkedin}
+                  job={item.job}
+               />
+            ))}
          </div>
          {seeMoreProjects && (
             <div className="w-full py-36 flex items-center justify-center">
