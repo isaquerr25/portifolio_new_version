@@ -14,7 +14,7 @@ export const projects = [
    },
    {
       title: "Netflix",
-      description: `I developed an exclusive page for our streaming platform, inspired by the innovation and 
+      description: `I developed an exclusive page for a streaming platform, inspired by the innovation and 
       diversity of content we offer. With an intuitive and modern design, we highlight the main series and 
       films, providing an immersive browsing experience. Every detail has been carefully thought out to 
       reflect the variety of genres and quality of our content, guaranteeing users a fluid and captivating 
