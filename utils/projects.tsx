@@ -274,6 +274,22 @@ export const backEnds = [
       githubReference: "https://www.linkedin.com/company/nevemind/",
    },
    {
+      title: "C# .NET",
+      job: "Backend",
+      description: `
+      In C# .NET, I specialize in back-end development, I bring a wealth of experience to the table.
+      Proficient in frameworks such as ASP.NET and ASP.NET Core, I excel at crafting robust and efficient 
+      applications that cater to the unique requirements of clients. My expertise extends to building 
+      scalable solutions, web services, and APIs, ensuring a high level of consistency and reliability 
+      in performance. With a solid foundation in C# and the .NET ecosystem, I am well-equipped to deliver 
+      cutting-edge back-end solutions that meet and exceed client expectations.
+      `,
+      technologies: ["Mvc", "EntityFrameworkCore", "EntityFrameworkCore"],
+      image: "logo_csharp.png",
+      sizeImage: "mediun",
+      githubReference: "https://www.linkedin.com/company/nevemind/",
+   },
+   {
       title: "Python",
       job: "Backend",
       description: `In Python, focusing especially on back-end development. With extensive experience in

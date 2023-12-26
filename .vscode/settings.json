@@ -27,7 +27,7 @@
    "tabnine.experimentalAutoImports": true,
    "prettier.tabWidth": 3,
    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
+      "source.fixAll.eslint": "explicit"
    },
    "terminal.integrated.env.windows": {},
    "editor.cursorBlinking": "smooth",
