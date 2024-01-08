@@ -83,6 +83,21 @@ export const projects = [
       site: "https://react-yoga-landingpage.vercel.app/",
       github: "https://github.com/isaquerr25/react-yoga-landingpage",
    },
+
+   {
+      title: "Discord",
+      description: `
+         This Discord HomePage gives you a centralized view of everything you need to explore, connect, and create 
+         vibrant online communities. Browse servers, find friends, participate in voice or text conversations, and 
+         discover new communities around your favorite interests. With intuitive design and powerful features, the 
+         Discord homepage is the perfect starting point for your online journey, where fun, collaboration, and 
+         communication come to life.
+      `,
+      technologies: ["Vue", "Nuxtjs", "Javascript", "Html", "CSS", "Tailwind", "Jest", "Iconify"],
+      image: "tela_discord.png",
+      site: "https://discord-clone-vue-nuxt.vercel.app/",
+      github: "https://github.com/isaquerr25/discord-clone-vue-nuxt",
+   },
 ];
 
 export const businessJobs = [
@@ -210,6 +225,8 @@ export const backEnds = [
       technologies: [
          "React",
          "React Native",
+         "Vue",
+         "NuxtJs",
          "Cypress",
          "Typeorm",
          "Vite",
@@ -250,6 +267,8 @@ export const backEnds = [
          "React Native",
          "Vite",
          "NextJs",
+         "Vue",
+         "NuxtJs",
          "Cypress",
          "Typeorm",
          "Vue",

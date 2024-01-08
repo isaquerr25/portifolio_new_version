@@ -1,7 +1,7 @@
 import { Project } from "./Project";
 
 export default function Projects({
-   title = "Main projects.",
+   title = "Main projects",
    idHtml,
    projects,
    seeMoreProjects = false,
