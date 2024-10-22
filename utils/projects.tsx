@@ -102,6 +102,41 @@ export const projects = [
 
 export const businessJobs = [
    {
+      title: "CHRONOVIEW",
+      job: "Owner",
+
+      description: `As the creator of ChronoView, my mission was to develop a tool that goes beyond being just a task manager — I wanted something that truly connects teams and projects. ChronoView is designed to transform how teams collaborate, linking individual tasks like pieces of a puzzle to create a cohesive and efficient workflow.
+
+      With it, you can track the progress of each task, adjust priorities, and ensure that everyone is aligned, from project inception to completion. The platform allows you to link related tasks, visualize progress in real time, and intelligently integrate each team member's demands, making it easier to succeed with complex projects in a structured way.
+
+      ChronoView also integrates seamlessly with platforms like Legal One and INPI, streamlining legal processes and intellectual property management directly into your project workflow. This integration ensures that all critical information is centralized, improving efficiency and collaboration.
+
+      Additionally, ChronoView offers deadline tracking tools, smart notifications, and intuitive visualizations to keep everything organized. It’s my commitment to ensuring that teams not only reach their goals but do so with fluidity and efficiency, consistently driving projects to success.
+`,
+      technologies: [
+         "GOLANG",
+         "Selenium",
+         "React",
+         "Redis",
+         "Protobuf",
+         "sqlc",
+         "Goose",
+         "TypeScript",
+         "ViteJS",
+         "Linear",
+         "Git Action",
+         "Docker",
+         "Matomo",
+         "Grafana",
+         "React Query",
+         "React Hook Forms",
+         "PostgreSQL",
+      ],
+      image: "chronoview.png",
+      sizeImage: "mediun",
+      site: "https://chronoview.net/",
+   },
+   {
       title: "NEVEMIND",
       job: "DevOps",
 
