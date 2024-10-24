@@ -12,32 +12,7 @@ export const projects = [
       site: "https://lusss-watch.vercel.app/",
       github: "https://github.com/isaquerr25/lusssWatch",
    },
-   {
-      title: "Netflix",
-      description: `I developed an exclusive page for a streaming platform, inspired by the innovation and 
-      diversity of content we offer. With an intuitive and modern design, we highlight the main series and 
-      films, providing an immersive browsing experience. Every detail has been carefully thought out to 
-      reflect the variety of genres and quality of our content, guaranteeing users a fluid and captivating 
-      entertainment journey. We are committed to offering a unique experience, where the simplicity of design 
-      and the emotional impact of our narratives.`,
-      technologies: ["React", "emotion", "Mui", "Style-Components"],
-      image: "tela_netflix.png",
-      site: "https://netflix-clone-react-smoky-one.vercel.app/",
-      github: "https://github.com/isaquerr25/netflix-clone-react",
-   },
-   {
-      title: "Nike LP",
-      description: `
-      I developed a landing page that captures the essence of Nike, opting for minimalism and presenting relevant 
-      information. With meticulous attention to detail, this page was created based on the brand's distinctive 
-      characteristics, reflecting its authenticity and energy. This demonstrates my ability to create an online 
-      experience that evokes the brand's identity while maintaining a balance between simplicity and impact.
-      `,
-      technologies: ["React", "Tailwind", "Swiper", "Vite", "Typescript", "CSS"],
-      image: "tela_01.png",
-      site: "https://nike-react-homepage.vercel.app/",
-      github: "https://github.com/isaquerr25/Nike-react-homepage#react-nike-lp",
-   },
+
    {
       title: "Tempest Investment",
       description: `
@@ -83,24 +58,43 @@ export const projects = [
       site: "https://react-yoga-landingpage.vercel.app/",
       github: "https://github.com/isaquerr25/react-yoga-landingpage",
    },
-
-   {
-      title: "Discord",
-      description: `
-         This Discord HomePage gives you a centralized view of everything you need to explore, connect, and create 
-         vibrant online communities. Browse servers, find friends, participate in voice or text conversations, and 
-         discover new communities around your favorite interests. With intuitive design and powerful features, the 
-         Discord homepage is the perfect starting point for your online journey, where fun, collaboration, and 
-         communication come to life.
-      `,
-      technologies: ["Vue", "Nuxtjs", "Javascript", "Html", "CSS", "Tailwind", "Jest", "Iconify"],
-      image: "tela_discord.png",
-      site: "https://discord-clone-vue-nuxt.vercel.app/",
-      github: "https://github.com/isaquerr25/discord-clone-vue-nuxt",
-   },
 ];
 
 export const businessJobs = [
+   {
+      title: "Escritório Paulo Miro & Advogados Associados",
+      job: "Developer",
+
+      description: `
+
+Project 1: Integration between Legal One and Neotriade
+<br/>
+
+For the law firm Paulo Miro Advogados, I developed an innovative 
+software solution integrating two major legal platforms: Legal 
+One and Neotriade. This solution automates the exchange of 
+information between the systems, allowing data to be synchronized 
+efficiently and in real time. The software streamlined the team's 
+workflow, ensuring that processes, documents, and essential information 
+were always up to date on both platforms, eliminating manual work and 
+reducing operational errors. This integration significantly accelerated 
+process management and improved decision-making in the firm's daily operations.
+<br/>
+<br/>
+Project 2: Trademark Monitoring Software at INPI
+<br/>
+
+I developed a specialized software for monitoring trademark status at INPI 
+(National Institute of Industrial Property), meeting the needs of the law 
+firm Paulo Miro Advogados. The tool continuously monitors trademark registrations, 
+automatically alerting the legal team via email about changes and critical deadlines.
+
+      `,
+      technologies: ["GOLANG", "Selenium", "Python", "sqlc", "SqlLite", "Linear", "PostgreSQL"],
+      image: "office_paulo.webp",
+      sizeImage: "mediun",
+      site: "https://www.paulomiro.adv.br/",
+   },
    {
       title: "CHRONOVIEW",
       job: "Owner",
@@ -363,7 +357,7 @@ export const backEnds = [
       scalable systems. My experience extends to using popular frameworks like Gin and Echo, allowing me to develop 
       high-performance APIs and web services. The inherent efficiency of Go makes it ideal for building distributed 
       applications and concurrent systems, areas in which I excel.`,
-      technologies: ["GORM"],
+      technologies: ["GORM", "Air", "Goose", "Sqlc", "Protobuf"],
       image: "logo_golang.png",
       sizeImage: "mediun",
       githubReference: "https://www.linkedin.com/company/nevemind/",

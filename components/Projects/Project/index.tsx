@@ -1,8 +1,8 @@
+import Image from "next/image";
+import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
-import { BsLinkedin } from "react-icons/bs";
 import Tag from "./Tag";
-import Image from "next/image";
 
 type projectPropsType = {
    title: string;
@@ -52,9 +52,8 @@ export function Project({
                className="text-gray-500 text-xl font-light leading-10 max-[1200px]:m-auto max-[1200px]:max-w-3xl max-[1200px]:text-center aos-init aos-animate max-[420px]:text-base max-[420px]:leading-9"
                data-aos={"fade-right"}
                data-aos-duration={"1700"}
-            >
-               {description}
-            </p>
+               dangerouslySetInnerHTML={{ __html: description }}
+            ></p>
             <div
                className="w-full flex flex-wrap gap-4 max-[1200px]:m-auto max-[1200px]:max-w-3xl max-[1200px]:justify-center aos-init aos-animate"
                data-aos={"fade-right"}
